@@ -1,0 +1,27 @@
+{
+  "name": "kraken-trading-bot",
+  "version": "1.0.0",
+  "description": "Automated cryptocurrency trading system using Kraken API",
+  "main": "src/kraken-client.js",
+  "scripts": {
+    "test": "node src/kraken-client.js",
+    "paper-trade": "node src/paper-trade.js",
+    "live-trade": "node src/live-trade.js",
+    "backtest": "node src/backtest.js",
+    "dashboard": "node src/dashboard.js"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "trading",
+    "kraken",
+    "bitcoin",
+    "ethereum",
+    "automated-trading"
+  ],
+  "author": "Neo (OpenClaw Ops)",
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
